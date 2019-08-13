@@ -11,10 +11,11 @@ function findMin(arr) {
     }
     return min;
 }
+function showAlert(value)
+{
+    alert('Number min is ' + value);
+}
 
-let minArray1 = findMin(array1);
-let minArray2 = findMin(array2);
-let minArray3 = findMin(array3);
-alert('Number min of array1 is ' + minArray1);
-alert('Number min of array2 is ' + minArray2);
-alert('Number min of array3 is ' + minArray3);
+showAlert(findMin(array1));
+showAlert(findMin(array2));
+showAlert(findMin(array3));
